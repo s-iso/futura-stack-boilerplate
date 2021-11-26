@@ -43,4 +43,4 @@ This github repo is using an atomic design for it's file structure and naming co
 
 ### License
 
-Might add one later. For now, don't use this without asking me. For business inquiries, click [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+Might add one later. For now, don't use this without asking me. **For business inquiries, click [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ)**
