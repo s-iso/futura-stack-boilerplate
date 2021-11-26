@@ -1,0 +1,13 @@
+.button__ {
+    &small, &sm {
+        font-size: 12px;
+    }
+    
+    &medium, &md {
+        font-size: 16px;
+    }
+    
+    &large, &lg {
+        font-size: 25px;
+    }
+}

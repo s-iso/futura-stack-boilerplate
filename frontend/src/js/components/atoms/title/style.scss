@@ -1,0 +1,15 @@
+@import "../../../../css/colors_library.scss";
+
+.title__ {
+    &small, &sm {
+        font-size: 25px;
+    }
+    
+    &medium, &md {
+        font-size: 40px;
+    }
+    
+    &large, &lg {
+        font-size: 75px;
+    }
+}

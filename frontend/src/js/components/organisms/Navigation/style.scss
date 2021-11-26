@@ -1,0 +1,42 @@
+@import '../../../../css/colors_library.scss';
+
+.logo-nav {
+    width: 40px;
+}
+
+.logo-nav-text {
+    margin-left: 10px;
+    font-size: 20px;
+    color: $grey-0;
+}
+
+.navigation__background {
+    background-color: $grey-900;
+}
+
+.branding {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: inherit;
+    white-space: nowrap;
+    vertical-align: center;
+}
+
+.navigation {
+    font-size: 16px;
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    margin-right: auto;
+}
+
+.navigation > li {
+    a {
+        color: $grey-200;
+    }
+    a:hover {
+        color:$grey-100;
+    }
+    padding: 8px 18px;
+}

@@ -1,0 +1,28 @@
+version: '3.3'
+services:
+    nginx:
+      image: nginx
+      ports:
+           - '80:80'
+      networks:
+        - internal
+      volumes:
+           - './frontend/dist:/usr/share/nginx/html:ro'
+           - './server/nginx-config:/etc/nginx:ro'
+    node:
+      image: node
+      expose:
+        - '3010'
+      networks:
+        - internal
+      volumes:
+        - './backend:/home/node/app'
+      command: 'npm start'
+      working_dir: '/home/node/app'
+      environment:
+        - 'NODE_ENV=production'
+      user: 'node'
+
+networks:
+  internal:
+    driver: bridge
